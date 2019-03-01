@@ -3,6 +3,10 @@
 var categorias = ['Accion', "Terror", "Comedia"];
 var peliculas = ["La verdad duele", "La vida es bella", "Gran Torino"];
 
+peliculas.reverse();
+
+console.log(peliculas);
+
 var cine = [categorias, peliculas];
 
 /* console.log(cine[0][1]);
@@ -20,4 +24,10 @@ if (indice > -1) {
 }
 
 var array_string = peliculas.join();
+
+var cadena = "Texto1, Texto2, Texto3";
+var cadena_array = cadena.split(", ");
+
+console.log(cadena_array);
+
 console.log(array_string);

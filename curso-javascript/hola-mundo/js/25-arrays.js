@@ -20,7 +20,20 @@ for (let i = 0; i < lenguajes.length; i++) {
 }
 */
 
-lenguajes.forEach((elemento, index) => {
+/* lenguajes.forEach((elemento, index) => {
     document.write("<li>" + index + "-" + elemento + "</li>")
-});
+}); */
+
+for (let lenguaje in lenguajes) {
+    document.write("<li>" + lenguajes[lenguaje] + "</li>")
+}
 document.write("</ul>");
+
+//Busquedas
+var precios = [10, 20, 50, 80, 12];
+
+//var busqueda = lenguajes.findIndex(lenguaje => lenguaje == 'PHP');
+
+var busqueda = precios.some(precio => precio >= 81);
+
+console.log(busqueda);

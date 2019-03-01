@@ -11,5 +11,5 @@ function listadoFrutas(fruta1, fruta2, ...resto_de_frutas) {
 
 listadoFrutas("Naranja", "Manzana", "Sandia", "Pera", "Melon", "Coco");
 
-var frutas = ["Naranja", "Manzana"];
+var frutas = ["Naranja", "Manzana", "otro"];
 listadoFrutas(...frutas, "Sandia", "Pera", "Melon", "Coco");
