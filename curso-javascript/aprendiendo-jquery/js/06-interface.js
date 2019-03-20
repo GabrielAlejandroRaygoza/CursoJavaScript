@@ -33,4 +33,11 @@ $(document).ready(function() {
 
     $(document).tooltip();
 
+    $("#lanzar-popup").click(function() {
+        $("#popup").dialog();
+    });
+
+    $("#calendario").datepicker();
+
+    $("#pestanas").tabs();
 });
