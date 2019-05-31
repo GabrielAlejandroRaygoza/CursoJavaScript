@@ -1,0 +1,6 @@
+# El uso de FNM_PATHNAME hace que el siguiente patrón ignore los ficheros
+# web/fichero.html, pero no ignore el fichero web/admin/fichero.html
+#
+# Como el " * " no incluye " / ", el fichero web/admin/fichero.html no 
+# encaja con el patrón
+node_modules/
